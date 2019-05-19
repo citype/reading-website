@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './style.js';
 import App from './App';
-
+import './statics/iconfont/iconfont'
 ReactDOM.render(<App />, document.getElementById('root'));
 
