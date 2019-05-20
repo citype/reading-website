@@ -30,21 +30,21 @@ box-sizing: border-box;
 `
 
 export const NavItem = styled.div`
-line-height: 56px;
-font-size: 17px;
-padding:0 15px;
-color: #333;
-
-&.left {
-    float: left;
-}
-&.right {
-    float: right;
-}
-&.active {
-    color: #ea6f5a;
-}
-`
+	line-height: 56px;
+	padding: 0 15px;
+	font-size: 17px;
+	color: #333;
+	&.left {
+		float: left;
+	}
+	&.right {
+		float: right;
+		color: #969696;
+	}
+	&.active {
+		color: #ea6f5a;
+	}
+`;
 
 export const NavSearch = styled.input.attrs({
     placeholder: '搜索'
@@ -56,12 +56,15 @@ outline: none;
 border-radius: 19px;
 background: #eee;
 margin-top: 9px;
-padding: 0 20px;
+padding: 0 30px 0 20px;
 box-sizing: border-box;
-font-size: 14px;
+font-size: 14;
 margin-left:20px;
 $::placeholder {
     color:#999;
+}
+&.focused {
+    width: 240px;
 }
 `
 
@@ -87,5 +90,39 @@ $.reg{
 $.writting {
     color: #fff;
     background: white;
+}
+`
+
+export const SearchWrapper = styled.div`
+float:left;
+position:relative;
+.slide-enter {
+    width: 160px;
+    transition: all .2s ease-out
+}
+
+.silde-enter-active {
+    width: 240px;
+}
+.slide-exit {
+    transition: all .2s ease-out
+}
+.slide-exit-active {
+    width: 160px;
+}
+
+.iconfont {
+    position: absolute;
+    right:5px;
+    bottom:5px ;
+    line-height:30px;
+    text-align:center;
+    width:30px;
+    border-radius:15px;
+    &.focused {
+        background: #777;
+        color: #fff;
+    }
+
 }
 `
