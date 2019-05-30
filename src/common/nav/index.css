@@ -1,0 +1,32 @@
+.nav-top {
+    height: 70px;
+    width: 100%;
+    /* position: fixed;
+    top: 0;
+    z-index: 99999; */
+}
+
+.nav-top img {
+    width: 200px;
+    height: 70px;
+    margin-left: 100px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-top ul {
+    float: right;
+    font-size: 20px;
+    line-height: 70px;
+    font-weight: bold;
+    color:#ffffff;
+}
+.nav-top li {
+    display: inline-block;
+    margin: 0px 100px;
+}
+.active {
+    border-bottom: 3px solid #2fca89;
+}
