@@ -1,10 +1,10 @@
 .so-container {
     width: 100%;
-    height:1200px;
+    height:1100px;
     background-color: #ffffff;
-    z-index: 99;
+    /* z-index: 99; */
     font-family: JLGL,Arial,Helvetica,sans-serif;
-    position: relative;
+    /* position: relative; */
 }
 .nav-top ul {
     float: right;

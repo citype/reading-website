@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
+import Logo from '../images/logoo.png'
 
 class Nav extends Component {
     constructor(props) {
@@ -8,10 +9,12 @@ class Nav extends Component {
     render() {
         return(
             <div className="nav-top">
-                <img src="https://qiniucdn.jiliguala.com/dev/promo/f363a7be89284ddcad1a8ffcd6156409.png"/>
+                <img src={Logo}/>
                 <ul>
                     <li className="active">首页</li>
-                    <li><a href="#"></a>了解我们</li>
+                    <li><a href="#"></a>沉浸式英语</li>
+                    <li><a href="#"></a>名校游学</li>
+                    <li><a href="#"></a>联系我们</li>
                     <li>加入我们</li>
                 </ul>
             </div>

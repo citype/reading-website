@@ -1,6 +1,6 @@
 import React, { Component } from 'react'; 
 import './index.css'
-import R1 from '../images/read.jpg'
+import R1 from '../images/read.png'
 import R2 from '../images/read1.jpg'
 import R3 from '../images/read2.jpeg'
 
@@ -12,20 +12,21 @@ class SectionTwo extends Component {
         return(
             <div className="st-container">
                 <div className="st-top">
-                    <p>互动课程-宝贝动起来</p>
+                    <p>全美英语分级阅读馆</p>
+                    <div className = "sth-line"></div>
                     <ul className="st-top-nav">
-                        <li>经典童话、生活礼仪，英语启蒙的同时，品格养成。</li>
-                        <li>情景浸润式学习方法与交互学习模式相互结合，进行教学。</li>
-                        <li>通过点击屏幕、拖拽动画，就能轻松学习，参与其中。</li>
+                        <li>不出国门，尽享纯正英语分级阅读馆</li>
+                        <li>科学的阅读裂成，获得美国孩子的英语思维能力和创造力</li>
+                        <li>英语阅读，母语思维，我们给您更多</li>
                     </ul>
                 </div>
 
                 <div className="st-bottom"> 
                     <ul className="st-bottom-images" >
                    
-                        <li> <p>课程有趣有效</p><img src={R1}/></li>   
-                        <li> <p>课程有趣有效</p><img src={R2}/></li>   
-                        <li> <p>课程有趣有效</p><img src={R3}/></li>   
+                        <li> <p>上万册图书一册一练</p><img src={R1}/></li>   
+                        <li> <p>外籍教师一对一指导</p><img src={R2}/></li>   
+                        <li> <p>多样化读后报告卡数据分析</p><img src={R3}/></li>   
                     </ul>
                 </div>
 

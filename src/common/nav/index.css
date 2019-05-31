@@ -1,16 +1,18 @@
 .nav-top {
-    height: 70px;
+    height: 80px;
     width: 100%;
-    /* position: fixed;
-    top: 0;
-    z-index: 99999; */
+    background-color: #ffffff;
+    position: fixed;
+
 }
 
 .nav-top img {
-    width: 200px;
+    margin-top: 10px;
+    width: 230px;
     height: 70px;
     margin-left: 100px;
 }
+
 ul {
     padding: 0;
     margin: 0;
@@ -19,14 +21,17 @@ ul {
 .nav-top ul {
     float: right;
     font-size: 20px;
-    line-height: 70px;
+    line-height: 80px;
     font-weight: bold;
-    color:#ffffff;
+    columns: #888888;;
 }
+
 .nav-top li {
     display: inline-block;
-    margin: 0px 100px;
+    margin: 0px 50px;
 }
 .active {
-    border-bottom: 3px solid #2fca89;
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #2fca89;
 }

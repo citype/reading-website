@@ -1,5 +1,6 @@
 import React, { Component } from 'react'; 
 import './index.css'
+import Level from '../images/level.png'
 
 class SectionOne extends Component {
     constructor(props) {
@@ -9,14 +10,16 @@ class SectionOne extends Component {
         return (
             <div className="so-container">
                 <div className="so-top">
-                    <p className="so-title">体系课程设置 科学满足学龄前各阶段儿童英语启蒙成长需求</p>
-                    <span className="so-detail">600余首 The Kiboomers 儿歌，</span>
+                    <p className="so-title">体系课程设置</p>
+                    <br/>
+                    <p className="so-title">科学满足学龄前各阶段孩子英语启蒙成长需求</p>
+                    <span className="so-detail">近万册美国原版图书完整覆盖美国 K12 体系，</span>
                     <br></br>
-                    <span className="so-detail">上百本 Rourke Media 出版社原版绘本，近10000热门儿歌、动画，搭配实用单词闪卡，为宝贝“免费”提供英语环境！</span>
+                    <span className="so-detail">舒适安全的空间布局带给孩子轻松的阅读体验，全年无限次畅读，为孩子提供原汁原味的美国阅读场景，将美国分级阅读馆搬至您身边！</span>
                 </div>
                 <div className="so-middle">
-                    <img src="https://qiniucdn.jiliguala.com/dev/promo/bb9b844ea1fd4e6aa21bf7e424191ace.png"/>
-                    <p>CEFR标准：The Common European Framework of Reference for Languages（欧洲共同语言参考标准）的简称CCSS美国标准：Common Core State Standards(共同核心州立标准)的简称</p>
+                    <img src={Level}/>
+                    <p>蓝思指数（Lexile）是一项测量阅读水平和标识书籍难易程度的标准。蓝思阅读测评体系主要从两个维度来衡量读物难度，即语义难度（Semantic Difficulty）和句法难度（Syntactic Complexity）。</p>
                 </div>
               
             </div>

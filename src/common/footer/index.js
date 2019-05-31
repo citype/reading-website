@@ -13,14 +13,14 @@ class Footer extends Component {
             <div className="fo-container">
                 <div className="fo-top">
                     <ul className="fo-nav">
-                        <li><img src={Pic}></img><p className="fo-detail">6 个月学懂其他机构 1年的课？</p><p className="fo-title">了解西瓜创客课程体系</p></li>
-                        <li><img src={Pic1}></img><p className="fo-detail">6 个月学懂其他机构 1年的课？</p><p className="fo-title">看看影响数万孩子的学员故事</p></li>
-                        <li><img src={Pic2}></img><p className="fo-detail">6 个月学懂其他机构 1年的课？</p><p className="fo-title">西瓜明星编程课抢先看</p></li>
+                        <li><img src={Pic}></img><p className="fo-detail">沉浸式美国分级阅读馆</p><p className="fo-title">了解我们的课程体验</p></li>
+                        <li><img src={Pic1}></img><p className="fo-detail">外籍导读 1 对 1</p><p className="fo-title">了解我们的师资力量</p></li>
+                        <li><img src={Pic2}></img><p className="fo-detail">科学的线上评测系统</p><p className="fo-title">了解我们的分级阅读体系</p></li>
                     </ul>
                 </div>
                 <div className="fo-bottom">
                         
-                    <p>杭州一解科技有限公司 © 2019</p>
+                    <p>杭州启路文化创意有限公司 © 2019</p>
                         <br/>
                     <p>浙 ICP 备 15026670 号-2</p>
                 </div>

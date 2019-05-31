@@ -1,15 +1,14 @@
 .top {
-    height: 700px;
+    height: 800px;
     width: 100%;
 }
+
 .top-container {
-    position: fixed;
-    right: 0;
-    top: 0;
     height: 100%;
     width: 100%;
-    z-index: -99;
-    background-image: url("../images/home.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-color: aqua;
+    /* z-index: -99; */
+    background-image: url("../images/home2.png");
+    /* background-size: 100% 100%;
+    background-repeat: no-repeat; */
 }

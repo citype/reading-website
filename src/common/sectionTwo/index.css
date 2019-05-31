@@ -1,7 +1,7 @@
 .st-container {
-    background-color: #FFE697;
+    background-color: #FFCE2D;
     width: 100%;
-    height: 950px;
+    height: 900px;
     font-family: JLGL,Arial,Helvetica,sans-serif;
 }
 
@@ -21,6 +21,7 @@
     font-weight: 700;
     font-size: 3rem;
     line-height: 4rem;
+    color: #fff;
 }
 
 .st-top-nav {
@@ -36,7 +37,8 @@
     text-align: left;
     line-height: 2;
     width: 23%;
-    font-weight: 100;
+    font-weight:200;
+    color: #fff;
 }
 
 .st-bottom-images {
@@ -51,7 +53,7 @@
 }
 .st-bottom-images li :hover {
     scale: 2;
-    box-shadow: 0 0 17px black;
+    box-shadow: 0 0 17px #fff;
 }
 
 .st-bottom-images img {
@@ -59,7 +61,7 @@
     height: 400px;
 }
 .st-bottom-images p {
-    background-color: #AEEEF3;
+    background-color: rgb(233, 244, 194);
     height: 100px;
     width: 100%;
     margin-top: 0;

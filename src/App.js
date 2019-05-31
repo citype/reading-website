@@ -6,6 +6,7 @@ import Nav from './common/nav';
 import SectionOne from './common/sectionOne'
 import SectionTwo from './common/sectionTwo'
 import SectionThree from './common/sectionThree'
+import SectionFour from './common/sectionFour'
 import Footer from './common/footer'
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <SectionOne/>
         <SectionTwo/>
         <SectionThree/>
+        <SectionFour/>
         <Footer/>
       </Provider>
     )

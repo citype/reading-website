@@ -1,7 +1,7 @@
 .sth-container {
     height: 750px;
     width: 100%;
-    background-image: url("https://mi.xiguacity.cn/fe-xigua/backgrounds/bg1.png");
+    background-color: #F8F8F8;
     background-repeat: no-repeat;
 }
 .sth-top {
@@ -10,7 +10,7 @@
     height: 500px;
     text-align: center;
 }
-.sth-top p {
+.sth-top-p {
     font-weight: 700;
     font-size: 3rem;
     line-height: 4rem;
@@ -29,7 +29,7 @@
     line-height: 40px;
     width: 76%;
     margin: 0 12%;
-    color: #888;
+    color: #666666;
     display: inline-block;
 }
 
