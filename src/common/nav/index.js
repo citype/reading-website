@@ -22,12 +22,12 @@ class Nav extends Component {
                     <Link to="/school">
                         <li>星航名校游学</li>
                     </Link>
-                    <Link to="/readinfo">
-                        <li>联系我们</li>
+                    <Link to="/contact">
+                        <li>关于我们</li>
                     </Link>
-                    <Link to="readinfo">
+                    {/* <Link to="readinfo">
                         <li>加入我们</li>
-                    </Link>
+                    </Link> */}
                 </ul>
             </div>
         )

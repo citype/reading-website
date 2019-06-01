@@ -22,6 +22,8 @@ class Footer extends Component {
                         
                     <p>杭州启路文化创意有限公司 © 2019</p>
                         <br/>
+                        <p>咨询客服：+86 13588237523</p>
+                        <br/>
                     <p>浙 ICP 备 15026670 号-2</p>
                 </div>
             </div>

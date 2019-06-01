@@ -1,0 +1,22 @@
+.sab-container {
+    height: 900px;
+    width: 100%;
+    background-color: #F9FAFC;
+}
+.sab-ul {
+    margin-left: 40%;
+    height: 80%;
+}
+.sab-li {
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 60px;
+    border-left: 15px solid #FABD45;
+    
+}
+.sab-point {
+    border:8px solid #FABD45;
+    margin-left: -8px;
+    display: inline-block;
+    border-radius: 50%;
+}

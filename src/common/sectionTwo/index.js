@@ -12,7 +12,7 @@ class SectionTwo extends Component {
         return(
             <div className="st-container">
                 <div className="st-top">
-                    <p>全美英语分级阅读馆</p>
+                    <p className="stwo-top-p">全美英语分级阅读馆</p>
                     <div className = "sth-line"></div>
                     <ul className="st-top-nav">
                         <li>不出国门，尽享纯正英语分级阅读馆</li>
