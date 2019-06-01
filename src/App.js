@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
-import store from './store';
 import { Provider } from 'react-redux';
-import Top from './common/top';
 import Nav from './common/nav';
-import SectionOne from './common/sectionOne'
-import SectionTwo from './common/sectionTwo'
-import SectionThree from './common/sectionThree'
-import SectionFour from './common/sectionFour'
 import Footer from './common/footer'
+import Home from './common/home'
+import ReadInfo from './common/readInfo'
+import {BrowserRouter, Route} from 'react-router-dom'
+import School from './common/school'
+
 class App extends Component {
   render() {
     return (
-      <Provider store = {store} >
-        <Nav/>
-        <Top/>
-        <SectionOne/>
-        <SectionTwo/>
-        <SectionThree/>
-        <SectionFour/>
-        <Footer/>
-      </Provider>
+      <BrowserRouter>
+      <div>
+          <Nav/>
+            <Route path="/" exact component={Home}></Route>
+            <Route path="/readinfo" component ={ReadInfo}></Route>
+            <Route path="/school" component={School}></Route>
+          <Footer/>
+        </div>
+        </BrowserRouter>
     )
   }
 }

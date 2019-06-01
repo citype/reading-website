@@ -1,0 +1,11 @@
+.rte-container {
+    height: 650px;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+.rte-test-img {
+
+    width: 80%;
+    height: 400px;
+}
