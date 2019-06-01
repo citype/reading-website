@@ -27,7 +27,8 @@ ul {
 
 .nav-top li {
     display: inline-block;
-    margin: 0px 50px;
+    margin: 0 50px;
+    line-height:90px;
     font-weight: 200;
 }
 .active {
