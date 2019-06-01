@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Provider } from 'react-redux';
 import Nav from './common/nav';
 import Footer from './common/footer'
 import Home from './common/home'
