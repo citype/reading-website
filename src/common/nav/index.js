@@ -17,7 +17,7 @@ class Nav extends Component {
                         <li>首页</li>
                     </Link>
                     <Link to="/readinfo">
-                        <li>海维沉浸英语</li>
+                        <li>海维英语阅读</li>
                     </Link>
                     <Link to="/school">
                         <li>星航名校游学</li>

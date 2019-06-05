@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './index.css'
-// import BG from '../images/bg1.png'
-import BG from '../images/bookbg.png'
+import BG from '../images/bookbg.jpg'
 
 class ReadTop extends Component {
     constructor(props) {

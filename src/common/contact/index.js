@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
-import Top from '../images/company.png'
+import Top from '../images/company.jpg'
 import ContactAbout from '../contactAbout'
 import Item1 from '../images/interview.jpg'
 import Item2 from '../images/search.jpg'

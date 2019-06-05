@@ -1,8 +1,8 @@
 import React, { Component } from 'react'; 
 import './index.css'
-import R1 from '../images/read.png'
+import R1 from '../images/read.jpg'
 import R2 from '../images/read1.jpg'
-import R3 from '../images/read2.jpeg'
+import R3 from '../images/read2.jpg'
 
 class SectionTwo extends Component {
     constructor(props) {
@@ -12,11 +12,11 @@ class SectionTwo extends Component {
         return(
             <div className="st-container">
                 <div className="st-top">
-                    <p className="stwo-top-p">全美英语分级阅读馆</p>
+                    <p className="stwo-top-p">英美式英语分级阅读馆</p>
                     <div className = "sth-line"></div>
                     <ul className="st-top-nav">
                         <li>不出国门，尽享纯正英语分级阅读馆</li>
-                        <li>科学的阅读裂成，获得美国孩子的英语思维能力和创造力</li>
+                        <li>科学的阅读裂成，获得英美母语国家孩子的英语思维能力和创造力</li>
                         <li>英语阅读，母语思维，我们给您更多</li>
                     </ul>
                 </div>
